@@ -41,9 +41,9 @@ document.getElementById('textspeed').addEventListener('change', function (e) {
 var timing2 = 500,
     textspeed = document.getElementById('colorspeed');
 function loop2() {
-	document.body.style.background=(`rgb(${getRandomInt(255)},
-		${getRandomInt(255)},
-		${getRandomInt(255)})`)
+	document.body.style.background=(`rgb(${getRandomArbitrary(150,255)},
+		${getRandomArbitrary(150,255)},
+		${getRandomArbitrary(150,255)})`)
 
 
   window.setTimeout(loop2, timing2);
